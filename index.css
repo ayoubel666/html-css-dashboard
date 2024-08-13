@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+aside{
+    height: 100vh;
+    width: 100px;
+    background-color: #111f2d ;
+    color: white;
+    padding: 20px;
+    /* position: relative; */
+    transition: width 1s;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+:is(.img,.img img){
+    width: 60px;
+    height: 60px;
+}
+.img{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.img img{
+    object-fit: cover;
+}
+.image{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.image h2{
+    letter-spacing: 2px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 40px;
+    cursor: pointer;
+}
+.bar:first-child{
+    margin-top: 10px;
+}
+.active{
+    background-color: rgba(255, 255, 255, 0.292);
+}
+.bar:hover,.item:hover{
+    background-color: rgba(255, 255, 255, 0.292);
+}
+.logout{
+    background-color: rgba(255, 0, 0, 0.629);
+    width: calc(100% - 40px);
+    position: absolute;
+    bottom: 0px;
+}
+.logout:hover{
+    background-color: red;
+}
+.bar i{
+    font-size: 32px;
+}
+aside:hover{
+    width: 300px;
+}
+.content{
+    background-color: #01000f;
+    width: calc(100vw - 300px);
+    padding: 10px;
+    flex-grow: 1;
+}
+.dash{
+    display: flex;
+    align-items: stretch;
+    color: white;
+    width: 100vw;
+}
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #0074f5 ;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0px;
+}
+.item{
+    background-color: #111f2d;
+    width: 200px ;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+.item i{
+    font-size: 60px;
+}
+.item .num{
+    font-weight: bold;
+    font-size: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin:10px 0px ;
+    border-spacing: 5px;
+}
+th{
+    background-color: #0074f5;
+}
+th,td{
+    padding: 8px;
+    border-radius: 10px;
+}
+td{
+    background-color: #111f2d;
+}
+td:hover{
+    background-color: rgba(255, 255, 255, 0.251);
+}
+.green{
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+}
+.gold{
+    background-color: gold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
