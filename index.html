@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="dash">
+        <aside>
+            <div class="image">
+                <div>
+                    <div class="img">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                </div>
+                <h2>Elarfaoui</h2>
+            </div>
+            <div class="bars">
+                <div class="bar active">
+                    <i class="fa-solid fa-house"></i>
+                    <p>dashboard</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>clients</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-table"></i>
+                    <p>products</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <p>charts</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-pen"></i>
+                    <p>post</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-star"></i>
+                    <p>favorite</p>
+                </div>
+                <div class="bar">
+                    <i class="fa-solid fa-gear"></i>
+                    <p>settings</p>
+                </div>
+            </div>
+            <div class="bar logout">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                <p>Log Out</p>
+            </div>
+        </aside>
+        <div class="content">
+            <div class="title">
+                <p>dashboard</p>
+                <i class="fa-solid fa-chart-bar"></i>
+            </div>
+            <div class="info">
+                <div class="item">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="text">
+                        <p>users</p>
+                        <p class="num">100</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-pen"></i>
+                    <div class="text">
+                        <p>post</p>
+                        <p class="num">34</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-table"></i>
+                    <div class="text">
+                        <p>products</p>
+                        <p class="num">654</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <div class="text">
+                        <p>revenue</p>
+                        <p class="num">$143</p>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <p>Products</p>
+                <i class="fa-solid fa-table"></i>            
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>product</th>
+                        <th>price</th>
+                        <th>count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>tv</td>
+                        <td><span class="green">$887</span></td>
+                        <td><span class="gold">123</span></td>
+                    </tr>
+                    <tr>
+                        <td>labtop</td>
+                        <td><span class="green">$1545</span></td>
+                        <td><span class="gold">23</span></td>
+                    </tr>
+                    <tr>
+                        <td>phone</td>
+                        <td><span class="green">$222</span></td>
+                        <td><span class="gold">21</span></td>
+                    </tr>
+                    <tr>
+                        <td>wash machine</td>
+                        <td><span class="green">$1267</span></td>
+                        <td><span class="gold">3364</span></td>
+                    </tr>
+                    <tr>
+                        <td>keyworld</td>
+                        <td><span class="green">$356</span></td>
+                        <td><span class="gold">156</span></td>
+                    </tr>
+                    <tr>
+                        <td>tv</td>
+                        <td><span class="green">$1563</span></td>
+                        <td><span class="gold">789</span></td>
+                    </tr>
+                    <tr>
+                        <td>labtop</td>
+                        <td><span class="green">$154</span></td>
+                        <td><span class="gold">230</span></td>
+                    </tr>
+                    <tr>
+                        <td>phone</td>
+                        <td><span class="green">$22</span></td>
+                        <td><span class="gold">156</span></td>
+                    </tr>
+                    <tr>
+                        <td>wash machine</td>
+                        <td><span class="green">$12677</span></td>
+                        <td><span class="gold">3367</span></td>
+                    </tr>
+                    <tr>
+                        <td>keyworld</td>
+                        <td><span class="green">$5632</span></td>
+                        <td><span class="gold">238</span></td>
+                    </tr>
+                    <tr>
+                        <td>labtop</td>
+                        <td><span class="green">$154</span></td>
+                        <td><span class="gold">230</span></td>
+                    </tr>
+                    <tr>
+                        <td>phone</td>
+                        <td><span class="green">$22</span></td>
+                        <td><span class="gold">156</span></td>
+                    </tr>
+                    <tr>
+                        <td>wash machine</td>
+                        <td><span class="green">$12677</span></td>
+                        <td><span class="gold">3367</span></td>
+                    </tr>
+                    <tr>
+                        <td>keyworld</td>
+                        <td><span class="green">$5632</span></td>
+                        <td><span class="gold">238</span></td>
+                    </tr>
+                    <tr>
+                        <td>labtop</td>
+                        <td><span class="green">$154</span></td>
+                        <td><span class="gold">230</span></td>
+                    </tr>
+                    <tr>
+                        <td>phone</td>
+                        <td><span class="green">$22</span></td>
+                        <td><span class="gold">156</span></td>
+                    </tr>
+                    <tr>
+                        <td>wash machine</td>
+                        <td><span class="green">$12677</span></td>
+                        <td><span class="gold">3367</span></td>
+                    </tr>
+                    <tr>
+                        <td>keyworld</td>
+                        <td><span class="green">$5632</span></td>
+                        <td><span class="gold">238</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+            
+    </div>
+
+
+</body>
+</html>
